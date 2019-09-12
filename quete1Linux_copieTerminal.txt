@@ -1,0 +1,38 @@
+franck@franck-Surface-Pro-3:~$ ls
+ Bureau                                                   jxbrowser-ipc.log.lck
+ Documents                                                linux-surface
+ Downloads                                                Modèles
+'D:\programmation\formation-Human-Booster\data-eclipse'   Musique
+ examples.desktop                                         programmation
+ Images                                                   Public
+ jxbrowser-browser.log                                    snap
+ jxbrowser-chromium.log                                   Téléchargements
+ jxbrowser-ipc.log                                        Vidéos
+franck@franck-Surface-Pro-3:~$ pwd
+/home/franck
+franck@franck-Surface-Pro-3:~$ cd ..
+franck@franck-Surface-Pro-3:/home$ cd .;
+franck@franck-Surface-Pro-3:/home$ cd .,
+bash: cd: .,: Aucun fichier ou dossier de ce type
+franck@franck-Surface-Pro-3:/home$ cd ~/
+franck@franck-Surface-Pro-3:~$ ls -l
+total 92
+drwxr-xr-x 2 franck franck 4096 sept. 10 17:49  Bureau
+drwxr-xr-x 2 franck franck 4096 sept. 10 19:18  Documents
+drwxrwxr-x 2 franck franck 4096 sept. 12 09:00  Downloads
+drwxrwxr-x 3 franck franck 4096 sept. 10 20:34 'D:\programmation\formation-Human-Booster\data-eclipse'
+-rw-r--r-- 1 franck franck 8980 sept. 10 10:30  examples.desktop
+drwxr-xr-x 2 franck franck 4096 sept. 11 11:42  Images
+-rw-r--r-- 1 franck franck 3153 sept. 10 14:54  jxbrowser-browser.log
+-rw-r--r-- 1 franck franck 9928 sept. 10 14:54  jxbrowser-chromium.log
+-rw-r--r-- 1 franck franck 9101 sept. 10 20:20  jxbrowser-ipc.log
+-rw-r--r-- 1 franck franck    0 sept. 10 11:59  jxbrowser-ipc.log.lck
+drwxr-xr-x 8 franck franck 4096 sept. 11 21:59  linux-surface
+drwxr-xr-x 2 franck franck 4096 sept. 10 12:34  Modèles
+drwxr-xr-x 2 franck franck 4096 sept. 10 12:34  Musique
+drwxr-xr-x 6 franck franck 4096 sept. 11 11:08  programmation
+drwxr-xr-x 2 franck franck 4096 sept. 10 12:34  Public
+drwxr-xr-x 6 franck franck 4096 sept. 10 17:33  snap
+drwxr-xr-x 3 franck franck 4096 sept. 10 20:29  Téléchargements
+drwxr-xr-x 2 franck franck 4096 sept. 10 12:34  Vidéos
+franck@franck-Surface-Pro-3:~$ 
