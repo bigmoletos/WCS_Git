@@ -137,3 +137,32 @@ franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$
 franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets/inhabited$ ls
 earth.jpeg
 
+https://github.com/bigmoletos/WCS_Git/tree/linux/queteShell
+
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell$ tree
+.
+├── planets
+│   ├── fictionnal
+│   │   ├── arrakis.jpeg
+│   │   ├── coruscant.jpeg
+│   │   └── cybertron.jpeg
+│   ├── inhabited
+│   │   └── earth.jpeg
+│   └── real
+│       ├── dwarf-planets
+│       │   ├── mercury.jpeg
+│       │   ├── neptune.jpeg
+│       │   ├── pluto.jpeg
+│       │   ├── saturn.jpeg
+│       │   ├── uranus.jpeg
+│       │   └── venus.jpeg
+│       ├── gas-giants
+│       │   └── jupiter.jpeg
+│       └── telluric
+│           └── mars.jpeg
+└── planets.zip
+
+
+
+
+
