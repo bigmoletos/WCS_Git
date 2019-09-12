@@ -35,4 +35,63 @@ drwxr-xr-x 2 franck franck 4096 sept. 10 12:34  Public
 drwxr-xr-x 6 franck franck 4096 sept. 10 17:33  snap
 drwxr-xr-x 3 franck franck 4096 sept. 10 20:29  Téléchargements
 drwxr-xr-x 2 franck franck 4096 sept. 10 12:34  Vidéos
+franck@franck-Surface-Pro-3:~$ cd Images/
+franck@franck-Surface-Pro-3:~/Images$ cd ~
+franck@franck-Surface-Pro-3:~$ cd /home
+franck@franck-Surface-Pro-3:/home$ cd ~/programmation/wildcodeschool/
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool$ cd ../home/franck
+bash: cd: ../home/franck: Aucun fichier ou dossier de ce type
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool$ cd ..
+franck@franck-Surface-Pro-3:~/programmation$ cd ..
+franck@franck-Surface-Pro-3:~$ pwd
+/home/franck
+franck@franck-Surface-Pro-3:~$ ll ~/
+total 208
+drwxr-xr-x 33 franck franck 4096 sept. 12 08:58  ./
+drwxr-xr-x  3 root   root   4096 sept. 10 10:30  ../
+-rw-------  1 franck franck 4960 sept. 11 22:01  .bash_history
+-rw-r--r--  1 franck franck  220 sept. 10 10:30  .bash_logout
+-rw-r--r--  1 franck franck 3980 sept. 11 10:55  .bashrc
+drwxr-xr-x  2 franck franck 4096 sept. 10 17:49  Bureau/
+drwx------ 27 franck franck 4096 sept. 11 16:38  .cache/
+drwx------ 22 franck franck 4096 sept. 11 16:54  .config/
+drwx------  3 root   root   4096 sept. 11 16:38  .dbus/
+drwxr-xr-x  2 franck franck 4096 sept. 10 19:18  Documents/
+drwxrwxr-x  2 franck franck 4096 sept. 12 09:00  Downloads/
+drwxrwxr-x  3 franck franck 4096 sept. 10 20:34 'D:\programmation\formation-Human-Booster\data-eclipse'/
+drwxr-xr-x  6 franck franck 4096 sept. 10 12:14  .eclipse/
+-rw-r--r--  1 franck franck 8980 sept. 10 10:30  examples.desktop
+drwx------  2 franck franck 4096 sept. 10 20:27  .gconf/
+-rw-r--r--  1 franck franck  156 sept. 11 11:21  .gitconfig
+drwx------  3 franck franck 4096 sept. 10 19:20  .gnome/
+drwx------  3 franck franck 4096 sept. 10 11:03  .gnupg/
+drwx------  2 root   root   4096 sept. 11 16:38  .gvfs/
+-rw-------  1 franck franck 3370 sept. 12 08:58  .ICEauthority
+drwxr-xr-x  2 franck franck 4096 sept. 11 11:42  Images/
+drwxr-xr-x  4 franck franck 4096 sept. 10 21:09  .java/
+-rw-r--r--  1 franck franck 3153 sept. 10 14:54  jxbrowser-browser.log
+-rw-r--r--  1 franck franck 9928 sept. 10 14:54  jxbrowser-chromium.log
+-rw-r--r--  1 franck franck 9101 sept. 10 20:20  jxbrowser-ipc.log
+-rw-r--r--  1 franck franck    0 sept. 10 11:59  jxbrowser-ipc.log.lck
+drwxr-xr-x  8 franck franck 4096 sept. 11 21:59  linux-surface/
+drwx------  3 franck franck 4096 sept. 10 12:34  .local/
+drwxr-xr-x  2 franck franck 4096 sept. 10 12:34  Modèles/
+drwx------  5 franck franck 4096 sept. 10 10:39  .mozilla/
+drwxr-xr-x  2 franck franck 4096 sept. 10 12:34  Musique/
+drwxr-xr-x  3 franck franck 4096 sept. 10 11:59  .openjfx/
+drwxr-xr-x  3 franck franck 4096 sept. 12 08:58  .p2/
+drwx------  3 franck franck 4096 sept. 10 11:08  .pki/
+-rw-r--r--  1 franck franck  807 sept. 10 10:30  .profile
+drwxr-xr-x  6 franck franck 4096 sept. 11 11:08  programmation/
+drwxr-xr-x  2 franck franck 4096 sept. 10 12:34  Public/
+drwxr-xr-x  6 franck franck 4096 sept. 10 17:33  snap/
+drwx------  2 franck franck 4096 sept. 10 11:03  .ssh/
+-rw-r--r--  1 franck franck    0 sept. 10 11:27  .sudo_as_admin_successful
+drwxr-xr-x  2 franck franck 4096 sept. 10 12:14  .swt/
+drwxr-xr-x  3 franck franck 4096 sept. 10 20:29  Téléchargements/
+drwx------  5 franck franck 4096 sept. 10 15:08  .thunderbird/
+drwxr-xr-x  3 franck franck 4096 sept. 10 12:14  .tooling/
+drwxr-xr-x  2 franck franck 4096 sept. 10 12:34  Vidéos/
+-rw-------  1 franck franck  699 sept. 10 15:50  .viminfo
+-rw-r--r--  1 root   root    165 sept. 11 21:58  .wget-hsts
 franck@franck-Surface-Pro-3:~$ 
