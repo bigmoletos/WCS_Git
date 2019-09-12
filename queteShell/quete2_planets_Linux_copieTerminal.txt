@@ -1,0 +1,139 @@
+f
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool$ md quetes
+
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool$ mkdir quetes
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool$ cd quetes/
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes$ mkdir shell
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes$ cd shell/
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell$ wget https://github.com/bhubr/bhubr.github.io/raw/master/wild/planets.zip
+--2019-09-12 10:37:36--  https://github.com/bhubr/bhubr.github.io/raw/master/wild/planets.zip
+Résolution de github.com (github.com)… 140.82.118.4
+Connexion à github.com (github.com)|140.82.118.4|:443… connecté.
+requête HTTP transmise, en attente de la réponse… 302 Found
+Emplacement : https://raw.githubusercontent.com/bhubr/bhubr.github.io/master/wild/planets.zip [suivant]
+--2019-09-12 10:37:37--  https://raw.githubusercontent.com/bhubr/bhubr.github.io/master/wild/planets.zip
+Résolution de raw.githubusercontent.com (raw.githubusercontent.com)… 151.101.64.133, 151.101.0.133, 151.101.192.133, ...
+Connexion à raw.githubusercontent.com (raw.githubusercontent.com)|151.101.64.133|:443… connecté.
+requête HTTP transmise, en attente de la réponse… 200 OK
+Taille : 300234 (293K) [application/zip]
+Enregistre : «planets.zip»
+
+planets.zip          100%[======================>] 293,20K  --.-KB/s    ds 0,1s    
+
+2019-09-12 10:37:37 (2,00 MB/s) - «planets.zip» enregistré [300234/300234]
+
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell$ unzip planets.zip 
+Archive:  planets.zip
+   creating: planets/
+  inflating: planets/mercury.jpeg    
+  inflating: planets/earth.jpeg      
+  inflating: planets/pluto.jpeg      
+  inflating: planets/arrakis.jpeg    
+  inflating: planets/jupiter.jpeg    
+  inflating: planets/venus.jpeg      
+  inflating: planets/mars.jpeg       
+  inflating: planets/cybertron.jpeg  
+  inflating: planets/coruscant.jpeg  
+  inflating: planets/uranus.jpeg     
+  inflating: planets/neptune.jpeg    
+  inflating: planets/saturn.jpeg     
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell$ eog planets 
+(eog:13565): Gtk-WARNING **: 10:38:18.009: Attempting to read the recently used resources file at '/home/franck/.local/share/recently-used.xbel', but the parser failed: L’ouverture du fichier « /home/franck/.local/share/recently-used.xbel » a échoué : Permission non accordée.
+
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell$ cd planets/
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ mkdir real fictionnal inhabited
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ ls
+arrakis.jpeg    cybertron.jpeg  fictionnal  jupiter.jpeg  mercury.jpeg  pluto.jpeg  saturn.jpeg  venus.jpeg
+coruscant.jpeg  earth.jpeg      inhabited   mars.jpeg     neptune.jpeg  real        uranus.jpeg
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ cd real
+ffranck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets/real$ mkdir telluric gas-giants dwarf-planets
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets/real$ cd ..
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ ls
+arrakis.jpeg    cybertron.jpeg  fictionnal  jupiter.jpeg  mercury.jpeg  pluto.jpeg  saturn.jpeg  venus.jpeg
+coruscant.jpeg  earth.jpeg      inhabited   mars.jpeg     neptune.jpeg  real        uranus.jpeg
+f
+-rw-r--r-- 1 franck franck 23224 févr. 25  2019 arrakis.jpeg
+-rw-r--r-- 1 franck franck 30475 févr. 25  2019 coruscant.jpeg
+-rw-r--r-- 1 franck franck 36718 févr. 25  2019 cybertron.jpeg
+-rw-r--r-- 1 franck franck 40334 févr. 25  2019 earth.jpeg
+drwxr-xr-x 2 franck franck  4096 sept. 12 10:44 fictionnal
+drwxr-xr-x 2 franck franck  4096 sept. 12 10:44 inhabited
+-rw-r--r-- 1 franck franck 25364 févr. 25  2019 jupiter.jpeg
+-rw-r--r-- 1 franck franck 31508 févr. 25  2019 mars.jpeg
+-rw-r--r-- 1 franck franck 25390 févr. 25  2019 mercury.jpeg
+-rw-r--r-- 1 franck franck 34406 févr. 25  2019 neptune.jpeg
+-rw-r--r-- 1 franck franck 44966 févr. 25  2019 pluto.jpeg
+drwxr-xr-x 5 franck franck  4096 sept. 12 10:48 real
+-rw-r--r-- 1 franck franck  8338 févr. 25  2019 saturn.jpeg
+-rw-r--r-- 1 franck franck 18988 févr. 25  2019 uranus.jpeg
+-rw-r--r-- 1 franck franck 13142 févr. 25  2019 venus.jpeg
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ mv earth.jpeg  inhabited/
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ mv coruscant.jpeg cybertron.jpeg arrakis.jpeg fictionnal/
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ ls -l
+total 228
+drwxr-xr-x 2 franck franck  4096 sept. 12 11:14 fictionnal
+drwxr-xr-x 2 franck franck  4096 sept. 12 11:12 inhabited
+-rw-r--r-- 1 franck franck 25364 févr. 25  2019 jupiter.jpeg
+-rw-r--r-- 1 franck franck 31508 févr. 25  2019 mars.jpeg
+-rw-r--r-- 1 franck franck 25390 févr. 25  2019 mercury.jpeg
+-rw-r--r-- 1 franck franck 34406 févr. 25  2019 neptune.jpeg
+-rw-r--r-- 1 franck franck 44966 févr. 25  2019 pluto.jpeg
+drwxr-xr-x 5 franck franck  4096 sept. 12 10:48 real
+-rw-r--r-- 1 franck franck  8338 févr. 25  2019 saturn.jpeg
+-rw-r--r-- 1 franck franck 18988 févr. 25  2019 uranus.jpeg
+-rw-r--r-- 1 franck franck 13142 févr. 25  2019 venus.jpeg
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ ll real/
+total 20
+drwxr-xr-x 5 franck franck 4096 sept. 12 10:48 ./
+drwxr-xr-x 5 franck franck 4096 sept. 12 11:14 ../
+drwxr-xr-x 2 franck franck 4096 sept. 12 10:48 dwarf-planets/
+drwxr-xr-x 2 franck franck 4096 sept. 12 10:48 gas-giants/
+drwxr-xr-x 2 franck franck 4096 sept. 12 10:48 telluric/
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ mv mercury.jpeg venus.jpeg neptune.jpeg uranus.jpeg saturn.jpeg pluto.jpeg  dwarf-planets/
+mv: la cible 'dwarf-planets/' n'est pas un répertoire
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ mv mercury.jpeg venus.jpeg neptune.jpeg uranus.jpeg saturn.jpeg pluto.jpeg  real/dwarf-planets/
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ ls
+fictionnal  inhabited  jupiter.jpeg  mars.jpeg  real
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ mv jupiter.jpeg real/gas-giants/
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ mv mars.jpeg real/telluric/
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ ls -l
+total 12
+drwxr-xr-x 2 franck franck 4096 sept. 12 11:14 fictionnal
+drwxr-xr-x 2 franck franck 4096 sept. 12 11:12 inhabited
+drwxr-xr-x 5 franck franck 4096 sept. 12 10:48 real
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ cd..
+cd.. : commande introuvable
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ cd ..
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell$ ls -l
+total 300
+drwxr-xr-x 5 franck franck   4096 sept. 12 11:35 planets
+-rw-r--r-- 1 franck franck 300234 sept. 12 10:37 planets.zip
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell$ cd planets/
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ ls -l
+total 12
+drwxr-xr-x 2 franck franck 4096 sept. 12 11:14 fictionnal
+drwxr-xr-x 2 franck franck 4096 sept. 12 11:12 inhabited
+drwxr-xr-x 5 franck franck 4096 sept. 12 10:48 real
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ ll real/
+total 20
+drwxr-xr-x 5 franck franck 4096 sept. 12 10:48 ./
+drwxr-xr-x 5 franck franck 4096 sept. 12 11:35 ../
+drwxr-xr-x 2 franck franck 4096 sept. 12 11:33 dwarf-planets/
+drwxr-xr-x 2 franck franck 4096 sept. 12 11:34 gas-giants/
+drwxr-xr-x 2 franck franck 4096 sept. 12 11:35 telluric/
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ ll real/dwarf-planets/
+total 164
+drwxr-xr-x 2 franck franck  4096 sept. 12 11:33 ./
+drwxr-xr-x 5 franck franck  4096 sept. 12 10:48 ../
+-rw-r--r-- 1 franck franck 25390 févr. 25  2019 mercury.jpeg
+-rw-r--r-- 1 franck franck 34406 févr. 25  2019 neptune.jpeg
+-rw-r--r-- 1 franck franck 44966 févr. 25  2019 pluto.jpeg
+-rw-r--r-- 1 franck franck  8338 févr. 25  2019 saturn.jpeg
+-rw-r--r-- 1 franck franck 18988 févr. 25  2019 uranus.jpeg
+-rw-r--r-- 1 franck franck 13142 févr. 25  2019 venus.jpeg
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ ls
+fictionnal  inhabited  real
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets$ cd inhabited/
+franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell/planets/inhabited$ ls
+earth.jpeg
+
