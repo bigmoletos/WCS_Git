@@ -163,6 +163,27 @@ franck@franck-Surface-Pro-3:~/programmation/wildcodeschool/quetes/shell$ tree
 └── planets.zip
 
 
-
+├── fictional
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   └── cybertron.jpeg
+├── inhabited
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   ├── cybertron.jpeg
+│   └── earth.jpeg
+└── real
+    ├── dwarf-planets
+    │   └── pluto.jpeg
+    ├── gas-giants
+    │   ├── jupiter.jpeg
+    │   ├── neptune.jpeg
+    │   ├── saturn.jpeg
+    │   └── uranus.jpeg
+    └── telluric
+        ├── earth.jpeg
+        ├── mars.jpeg
+        ├── mercury.jpeg
+        └── venus.jpeg
 
 
