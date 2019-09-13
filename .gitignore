@@ -1,5 +1,6 @@
 /.project
 /.classpath
+.classpath
 /build
 *.py[oc]
 temp*
